@@ -1,0 +1,13 @@
+# Add the following tags to all pr's
+do-not-merge:
+- '**/*'
+
+waiting-for-review:
+- '**/*'
+
+change-sent-to-author:
+- '**/*'
+
+# Add automation to all pr's in .github
+automation:
+- '.github/**/*'
