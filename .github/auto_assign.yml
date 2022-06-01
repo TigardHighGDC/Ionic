@@ -11,6 +11,7 @@ reviewers:
   
 # Keywords that skip the auto assign process
 skipKeywords:
+  - wip
   - skip-review
 
 # A number of reviewers added to the pull request
