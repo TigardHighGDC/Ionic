@@ -19,3 +19,7 @@ cmake:
 # Add md to all edits to markdown files
 md:
 - '**/*.md'
+
+# Add the core label to all edits in src/
+core:
+- 'src/**/*'
