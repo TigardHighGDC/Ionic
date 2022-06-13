@@ -11,8 +11,9 @@ reviewers:
   
 # Keywords that skip the auto assign process
 skipKeywords:
-  - wip
   - skip-review
+  - no-review
+  - revert
 
 # A number of reviewers added to the pull request
 # Set 0 to add all the reviewers (default: 0)
