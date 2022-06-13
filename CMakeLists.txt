@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(src)
 
-target_link_libraries(thgdc_ionic_game_engine PUBLIC src)
+target_link_libraries(thsgdc_ionic_game_engine PUBLIC src)
 
 target_include_directories(thsgdc_ionic_game_engine PUBLIC
     "${PROJCET_BINARY_DIR}"
