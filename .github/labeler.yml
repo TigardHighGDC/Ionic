@@ -11,3 +11,7 @@ change-sent-to-author:
 # Add automation to all pr's in .github
 automation:
 - '.github/**/*'
+
+# Add cmake to all edits to CMakeLists.txt
+cmake:
+- 'CMakeLists.txt'
