@@ -15,3 +15,7 @@ automation:
 # Add cmake to all edits to CMakeLists.txt
 cmake:
 - 'CMakeLists.txt'
+
+# Add md to all edits to markdown files
+md:
+- '**/*.md'
