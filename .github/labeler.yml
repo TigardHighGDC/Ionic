@@ -11,3 +11,15 @@ change-sent-to-author:
 # Add automation to all pr's in .github
 automation:
 - '.github/**/*'
+
+# Add cmake to all edits to CMakeLists.txt
+cmake:
+- 'CMakeLists.txt'
+
+# Add md to all edits to markdown files
+md:
+- '**/*.md'
+
+# Add the core label to all edits in src/
+core:
+- 'src/**/*'
