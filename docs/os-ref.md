@@ -2,7 +2,7 @@
 
 For windows detection use `_WIN32`.
 
-**NOTE:** `_WIN32` will trigger for both 32 and 64 bit windows.
+*NOTE:* `_WIN32` will trigger for both 32 and 64 bit windows.
 
 ```cpp
 #if _WIN32
