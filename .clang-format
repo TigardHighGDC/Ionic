@@ -1,4 +1,6 @@
-// Copyright (c) TigardHighGDC 2022
+# Copyright (c) TigardHighGDC
+# SPDX-License-Identifier: Apache-2.0
+
 Language: Cpp
 BasedOnStyle: Google
 IndentWidth: 4
