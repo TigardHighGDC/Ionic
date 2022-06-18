@@ -2,30 +2,19 @@
 # SPDX-License-Identifier: Apache-2.0
 
 import os
-from typing import List
 
-def retrieve_copyright() -> List[str]:
+def main():
+    os.chdir('../')
+
     with open('../COPYRIGHT', 'r') as file:
         copyright = file.readlines()
 
     for line in copyright:
         line = f'// {line}'
 
-    return copyright
-
-
-def retrieve_files() -> List[str]:
-    """files.lst contains all files to be checked"""
+    # files.lst contains all files to be checked
     with open('files.lst', 'r') as file:
         files = file.readlines()
-
-    return files
-
-
-def main():
-    os.chdir('../')
-    copyright = retrieve_copyright()
-    files = retrieve_files()
 
     for file in files:
         with open(file, 'r') as f:
