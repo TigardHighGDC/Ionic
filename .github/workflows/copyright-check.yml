@@ -1,0 +1,19 @@
+name: Copyright Check
+on:
+  push:
+    branches: [ mega ]
+  pull_request:
+    branches: [ mega ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - uses: jannekem/run-python-script-action@v1
+        with:
+          script: |
+            import os
+            os.chdir('../../tools/checks')
+            result = os.system('python3 copyright_check.py')
+            exit(result)
