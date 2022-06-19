@@ -14,6 +14,6 @@ jobs:
         with:
           script: |
             import os
-            os.chdir('../../tools/checks')
+            os.chdir('tools/checks/')
             result = os.system('python3 copyright_check.py')
             exit(result)
