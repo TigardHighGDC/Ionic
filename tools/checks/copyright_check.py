@@ -1,7 +1,6 @@
 # Copyright (c) TigardHighGDC
 # SPDX-License-Identifier: Apache-2.0
 
-from copy import copy
 import os
 
 def main():
