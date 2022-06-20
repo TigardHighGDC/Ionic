@@ -23,3 +23,11 @@ md:
 # Add the core label to all edits in src/
 core:
 - 'src/**/*'
+
+# Add the toolset label to all edits in tools
+toolset:
+- 'tools/**/*'
+
+# Add the test label to all edits in tests
+test:
+- 'tests/**/*'

@@ -9,8 +9,8 @@ def main():
     with open('../COPYRIGHT', 'r') as file:
         copyright = file.readlines()
 
-    for line in copyright:
-        line = f'// {line}'
+    for i, line in enumerate(copyright):
+        copyright[i] = f'// {line}'
 
     # files.lst contains all files to be checked
     with open('files.lst', 'r') as file:
