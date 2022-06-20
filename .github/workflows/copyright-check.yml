@@ -1,9 +1,9 @@
 name: Copyright Check
 on:
   push:
-    branches: [ mega ]
+    branches: [ main ]
   pull_request:
-    branches: [ mega ]
+    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest
