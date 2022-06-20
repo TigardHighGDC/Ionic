@@ -2,7 +2,7 @@
 #
 #### Readible
 - Code should be intuitive to understand
-- Code should be simple to write
+- Code should be simple to write. For example capitalization at the beginning of the code is unnecessary
 - Variables should be easy to distinguish between
 #### Standardized
 - Different classes shouldn't perform the same task
