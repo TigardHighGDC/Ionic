@@ -43,4 +43,4 @@ void Window::close() {
     return glfwWindowShouldClose(window);
 }
 
-} // namespace ionic
+}  // namespace ionic

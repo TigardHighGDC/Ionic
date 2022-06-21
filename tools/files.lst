@@ -1,2 +1,2 @@
-../src/window/window.hpp
-../tests/window/test.cpp
+../src/window/window.cpp
+../src/window/window.h
