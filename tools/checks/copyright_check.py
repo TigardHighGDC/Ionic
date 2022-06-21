@@ -17,6 +17,8 @@ def main():
         files = file.readlines()
 
     for file in files:
+        file = file.strip()
+
         with open(file, 'r') as f:
             contents = f.readlines()
 
