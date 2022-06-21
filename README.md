@@ -1,4 +1,4 @@
-# Tigard Game Development Club Ionic C++ Game Engine
+# Tigard High Game Development Club Ionic C++ Game Engine
 
 The Ionic C++ Game Engine is a simple game engine designed specifically for
 ['to be filled'](). This engine was developed by Tigard High Students during
