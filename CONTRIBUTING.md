@@ -11,7 +11,7 @@ programming and gaming that has driven us to be where we are today! Here are som
 
 ### Steps for Contributing
 
-1. Raise an issue.
+1. Raise an issue
 
 We ask that every item that is worked on has an issue from the beginning to the end of it's lifetime.
 
