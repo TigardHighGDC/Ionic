@@ -1,5 +1,7 @@
 # Tigard High Game Development Club Ionic C++ Game Engine
 
+![Ionic Image](images/ionic-titan-logo.png){ width="800" height="600" style="display: block; margin: 0 auto" }
+
 The Ionic C++ Game Engine is a simple game engine designed specifically for
 ['to be filled'](). This engine was developed by Tigard High Students during
 the 2022-2023 school year.
