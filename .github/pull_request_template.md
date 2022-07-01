@@ -1,8 +1,18 @@
-Linked Issue All pr's should have a linked issue that the pr is designed to close
+#### PR Info
 
-To link type the phrase "This pr fixes #x" where x is the issue number
+Closes: #(issue number).
 
-Let your code Speak for it's self no need to write an essay :)
+Connected: #(issue/pr number).
+
+#### Changes
+
+(Let your code Speak for it's self no need to write an essay, bullet points are fine).
+
+#### Code Snippets
+
+```cpp
+(If there are any code examples please include them here).
+```
 
 ----
 
