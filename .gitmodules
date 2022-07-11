@@ -2,5 +2,5 @@
 # SPDX-License-Identifier: Apache-2.0
 
 [submodule "glfw"]
-    path = glfw
-    url = https://github.com/glfw/glfw
+	path = glfw
+	url = https://github.com/glfw/glfw
