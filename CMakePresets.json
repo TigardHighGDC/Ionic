@@ -1,0 +1,29 @@
+{
+    "version": 2,
+    "configurePresets": [
+        {
+            "name": "LLVM",
+            "displayName": "LLVM Toolchain",
+            "description": "Using compilers: C = /home/oste_ar/tools/llvm-project/build/bin/clang, CXX = /home/oste_ar/tools/llvm-project/build/bin/clang",
+            "generator": "Unix Makefiles",
+            "binaryDir": "${sourceDir}/build",
+            "cacheVariables": {
+                "CMAKE_C_COMPILER": "/home/oste_ar/tools/llvm-project/build/bin/clang",
+                "CMAKE_CXX_COMPILER": "/home/oste_ar/tools/llvm-project/build/bin/clang++",
+                "CMAKE_C_LINK_EXECUTABLE": "/home/oste_ar/tools/llvm-project/build/bin/ld.lld",
+                "CMAKE_CXX_LINK_EXECUTABLE": "/home/oste_ar/tools/llvm-project/build/bin/ld.lld"
+            }
+        },
+        {
+            "name": "gcc",
+            "displayName": "GCC 11.2.0 x86_64-linux-gnu",
+            "description": "Using compilers: C = /bin/x86_64-linux-gnu-gcc-11, CXX = /bin/x86_64-linux-gnu-g++-11",
+            "generator": "Unix Makefiles",
+            "binaryDir": "${sourceDir}/build",
+            "cacheVariables": {
+                "CMAKE_C_COMPILER": "/bin/x86_64-linux-gnu-gcc-11",
+                "CMAKE_CXX_COMPILER": "/bin/x86_64-linux-gnu-g++-11"
+            }
+        }
+    ]
+}
