@@ -54,7 +54,7 @@ Exit code 0.
 Done!
 ```
 
-Optionally, we also recommend using the CMake VSCode extension for simple 
+Optionally, we also recommend using the CMake VSCode extension for simple
 control over the project build process.
 
 ## Maintainer List

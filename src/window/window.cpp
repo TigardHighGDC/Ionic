@@ -31,9 +31,7 @@ Window::~Window() {
     glfwTerminate();
 }
 
-void Window::close() {
-    glfwSetWindowShouldClose(this->window, true);
-}
+void Window::close() { glfwSetWindowShouldClose(this->window, true); }
 
 [[nodiscard]] bool Window::isClosed() const {
     return glfwWindowShouldClose(this->window);
