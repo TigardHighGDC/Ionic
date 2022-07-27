@@ -23,5 +23,3 @@ the 2022-2023 school year.
 Copyright (c) TigardHighGDC
 
 SPDX-License-Identifier: Apache-2.0
-
-test
