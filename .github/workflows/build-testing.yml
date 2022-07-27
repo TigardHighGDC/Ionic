@@ -19,8 +19,8 @@ jobs:
             import os
 
             # Install dependencies
-            os.system('sudo apt-get libglfw3')
-            os.system('sudo apt-get libglfw3-dev')
+            os.system('sudo apt-get install libglfw3')
+            os.system('sudo apt-get install libglfw3-dev')
 
             # Build
             os.system('cmake .')
