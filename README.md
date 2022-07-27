@@ -9,7 +9,10 @@ the 2022-2023 school year.
 - Read our [Project Guidelines](https://github.com/TigardHighGDC/Ionic/blob/main/docs/guidelines.md).
 - Our [Issue Project Board](https://github.com/TigardHighGDC/Ionic/projects/3) keeps track of all current issues.
 - Our [Code Review Project Board](https://github.com/TigardHighGDC/Ionic/projects/1) keeps track of all PR's under review.
-- Join our [Discord Server](https://discord.gg/ZvsKGCFUQb).
+- Join our [Discord Server](h        uses: |
+          actions/checkout@v2
+          actions/setup-python@v2
+          jannekem/run-python-script-action@v1ttps://discord.gg/ZvsKGCFUQb).
 
 ![Clang Format Check](https://github.com/TigardHighGDC/Ionic/actions/workflows/clang-format-check.yml/badge.svg?event=push)
 
@@ -23,3 +26,5 @@ the 2022-2023 school year.
 Copyright (c) TigardHighGDC
 
 SPDX-License-Identifier: Apache-2.0
+
+test
