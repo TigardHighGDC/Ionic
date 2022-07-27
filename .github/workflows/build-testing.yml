@@ -21,6 +21,9 @@ jobs:
             # Install dependencies
             os.system('sudo apt-get install libglfw3')
             os.system('sudo apt-get install libglfw3-dev')
+            os.system('sudo apt-get install libxinerama-dev')
+            os.system('sudo apt-get install libxxf86vm-dev')
+            os.system('sudo apt-get install libxcursor-dev')
 
             # Build
             os.system('cmake .')
