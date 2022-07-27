@@ -11,6 +11,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Install dependencies
+      - run: sudo apt-get install libglfw3
+      - run: sudo apt-get install libglfw3-dev
+      - name: Build Tests
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
       - uses: jannekem/run-python-script-action@v1
