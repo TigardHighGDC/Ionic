@@ -15,8 +15,6 @@ set(GLFW_DEPENDENCIES X11 Xrandr Xinerama Xxf86vm Xcursor GL dl pthread)
 
 add_subdirectory(src)
 
-set(BUILD_TESTING ON)
-
 if(BUILD_TESTING)
     add_subdirectory(tests)
 endif()
