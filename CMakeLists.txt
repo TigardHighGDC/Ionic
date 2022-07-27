@@ -9,7 +9,6 @@ project(thsgdc_ionic_game_engine VERSION 1.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(DGLFW_USE_WAYLAND ON)
-set(BUILD_TESTING ON)
 
 set(GLFW_DEPENDENCIES X11 Xrandr Xinerama Xxf86vm Xcursor GL dl pthread)
 
