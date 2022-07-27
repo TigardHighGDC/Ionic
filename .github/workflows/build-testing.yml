@@ -30,5 +30,7 @@ jobs:
             os.system('make')
 
             # Run Tests
-            exit_code = os.system('python3 tests/run.py')
-            exit(exit_code)
+            import sys
+            sys.path.insert(0, 'tests/')
+            import run
+            run.main()
