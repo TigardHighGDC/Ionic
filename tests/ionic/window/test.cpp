@@ -3,10 +3,14 @@
 
 #include "../../../src/window/window.h"
 
-#include <assert.h>
+#include <cassert>
 
 int main() {
     ionic::Window window("title", 800, 600);
-    assert(false);
+    assert(!window.isClosed());
+    
+    window.close();
+    assert(window.isClosed());
+
     return 0;
 }
