@@ -24,7 +24,7 @@ the most import ones.
 - [gcc](https://gcc.gnu.org/)
 - [python3](https://www.python.org/)
 
-## Running the build script
+### Running the build script
 
 The `build.sh` does everything you need to build the project from the command line.
 
