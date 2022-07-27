@@ -27,20 +27,20 @@ Window::Window(const std::string& title, int width, int height) {
 }
 
 Window::~Window() {
-    glfwDestroyWindow(window);
+    glfwDestroyWindow(this->window);
     glfwTerminate();
 }
 
 void Window::close() {
-    glfwSetWindowShouldClose(window, true);
+    glfwSetWindowShouldClose(this->window, true);
 
-    if (glfwWindowShouldClose(window)) {
-        glfwTerminate();
-    }
+    // if (glfwWindowShouldClose(window)) {
+    //     glfwTerminate();
+    // }
 }
 
 [[nodiscard]] bool Window::isClosed() const {
-    return glfwWindowShouldClose(window);
+    return glfwWindowShouldClose(this->window);
 }
 
 }  // namespace ionic
