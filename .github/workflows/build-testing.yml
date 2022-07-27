@@ -31,4 +31,4 @@ jobs:
 
             # Run Tests
             exit_code = os.system('python3 tests/run.py')
-            exit(exit_code)
+            exit(1)
