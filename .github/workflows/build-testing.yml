@@ -1,0 +1,23 @@
+# Copyright (c) TigardHighGDC
+# SPDX-License-Identifier: Apache-2.0
+
+name: Build Tests
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - uses: jannekem/run-python-script-action@v1
+        with:
+          script: |
+            import os
+            os.system('cmake .')
+            os.system('make')
+            exit_code = os.system('python3 tests/run.py')
+            exit(exit_code)
