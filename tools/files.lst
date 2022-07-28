@@ -1,2 +1,3 @@
 ../src/window/window.cpp
 ../src/window/window.h
+../tests/ionic/window/test.cpp
