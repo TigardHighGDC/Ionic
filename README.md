@@ -35,7 +35,7 @@ This includes:
 
 Simply run:
 
-```Command Line
+```
 $ ./build.sh
 Do you wish to also run the build tests? [y/n]: y
 Building with tests...
