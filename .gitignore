@@ -4,4 +4,12 @@
 __pycache__/
 .vs/
 .vscode/
-/build/ 
+/build/
+
+# Build testing CMake files
+CMakeFiles/
+*.cmake
+*.a
+Makefile
+*.out
+CMakeCache.txt
