@@ -8,13 +8,13 @@ read -r -p "Do you wish to also run the build tests? [y/n]: "
 if ! [[ $REPLY =~ ^[Yy]$ ]]; then
     echo "Building without tests..."
     echo "Running cmake..."
-    cmake . -DBUILD_TESTING=OFF
+    cmake . -DBUILD_TESTING=OFF -DCOMMAND_LINE_RUN=ON
     echo "Running make..."
     make
 else
     echo "Building with tests..."
     echo "Running cmake..."
-    cmake . -DBUILD_TESTING=ON
+    cmake . -DBUILD_TESTING=ON -DCOMMAND_LINE_RUN=ON
     echo "Running make..."
     make
     echo "Running tests..."

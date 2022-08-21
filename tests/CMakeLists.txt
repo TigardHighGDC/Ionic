@@ -3,7 +3,7 @@
 
 add_library(ionic_core STATIC IMPORTED)
 
-if(EXISTS "${CMAKE_SOURCE_DIR}/build/")
+if(COMMAND_LINE_RUN)
     set(ionic_core_SRC "${CMAKE_SOURCE_DIR}/build/src/libsrc.a")
 else()
     set(ionic_core_SRC "${CMAKE_SOURCE_DIR}/src/libsrc.a")
