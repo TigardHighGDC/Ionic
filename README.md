@@ -3,7 +3,7 @@
 ![Ionic Image](images/ionic-titan-logo.png)
 
 The Ionic C++ Game Engine is a simple game engine designed specifically for
-['to be filled'](). This engine was developed by Tigard High Students during
+['TBD'](). This engine was developed by Tigard High Students during
 the 2022-2023 school year.
 
 - Read our [Project Guidelines](https://github.com/TigardHighGDC/Ionic/blob/main/docs/guidelines.md).
@@ -21,10 +21,10 @@ The Ionic Game Engine has lots of dependencies. This is an incomplete list of
 the most import ones.
 
 - [GLFW](https://www.glfw.org/)
-- [gcc](https://gcc.gnu.org/)
-- [python3](https://www.python.org/)
 
-### Running the build script
+### Building the Engine
+
+#### Linux
 
 The `build.sh` does everything you need to build the project from the command line.
 
@@ -35,7 +35,7 @@ This includes:
 
 Simply run:
 
-```
+```Output
 $ ./build.sh
 Do you wish to also run the build tests? [y/n]: y
 Building with tests...
@@ -56,6 +56,10 @@ Done!
 
 Optionally, we also recommend using the CMake VSCode extension for simple
 control over the project build process.
+
+#### Windows
+
+TBD
 
 ## Maintainer List
 
